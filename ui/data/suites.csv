@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10965","User can remove his article from favorite","chromium-ui","2026-02-17","passed","2026-02-17","Articles","ui/conduit.spec.js","",""
+"","7443","User can create new article","chromium-ui","2026-02-17","passed","2026-02-17","Articles","ui/conduit.spec.js","",""
+"","7209","User can create new comment on the article","chromium-ui","2026-02-17","passed","2026-02-17","Articles","ui/conduit.spec.js","",""
+"","8539","User can add his article to favorite","chromium-ui","2026-02-17","passed","2026-02-17","Articles","ui/conduit.spec.js","",""
+"","8441","User can edit his article","chromium-ui","2026-02-17","passed","2026-02-17","Articles","ui/conduit.spec.js","",""
