@@ -1,0 +1,19 @@
+{
+  "base": {
+    "logo": "",
+    "project": "realworld-qa",
+    "environment": "qa",
+    "comment": "UI test run",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true,
+    "enableSuitesPublishing": false,
+    "customData": {}
+  },
+  "telegram": {
+    "token": "",
+    "chat": "",
+    "replyTo": ""
+  }
+}

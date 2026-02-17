@@ -1,0 +1,19 @@
+{
+  "base": {
+    "logo": "",
+    "project": "airportgap-api",
+    "environment": "qa",
+    "comment": "API test run",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true,
+    "enableSuitesPublishing": false,
+    "customData": {}
+  },
+  "telegram": {
+    "token": "",
+    "chat": "",
+    "replyTo": ""
+  }
+}

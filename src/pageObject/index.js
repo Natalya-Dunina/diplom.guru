@@ -1,0 +1,7 @@
+export * from './pages/base.page'
+export * from './components/header'
+export * from './pages/register.page'
+export * from './pages/article-new.page'
+export * from './pages/article-view.page'
+export * from './pages/article-edit.page'
+export * from './pages/profile.page'
