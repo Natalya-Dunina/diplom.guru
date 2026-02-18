@@ -1,14 +1,19 @@
 import { test as base } from '@playwright/test'
 import { step } from 'allure-js-commons'
-import { App } from '../src/pageObject/app'
-import { uiBaseUrl } from './constants'
+import { App } from '../src/pageObject'
+import { AirportGapService } from '../src/services'
 
 export const test = base.extend({
   app: async ({ page }, use) => {
     const app = new App(page)
     await page.setViewportSize({ width: 1800, height: 800 })
-    await app.basePage.open(uiBaseUrl)
+    await app.basePage.open('/')
     await use(app)
+  },
+
+  airportService: async ({ baseURL }, use) => {
+    const airportService = new AirportGapService({ baseURL })
+    await use(airportService)
   }
 })
 

@@ -1,3 +1,4 @@
+export { App } from './app'
 export * from './pages/base.page'
 export * from './components/header'
 export * from './pages/register.page'

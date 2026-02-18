@@ -33,8 +33,7 @@ test.describe('Articles', () => {
     await step('Comment should be visible', async () => {
       await expect(app.articleViewPage.commentText).toContainText(commentText)
     })
-    }
-  )
+  })
 
   test('User can edit his article', async (/** @type {{ app: App }} */ { app }) => {
     const updatedArticle = new ArticleBuilder().addTitle().addTopic().addContent().addTag().generate()
@@ -60,7 +59,7 @@ test.describe('Articles', () => {
     await createArticle(app, article)
 
     await app.header.openProfile()
-    
+
     await app.profilePage.addToFavorites()
     await app.profilePage.openFavoritedTab()
 
@@ -84,6 +83,5 @@ test.describe('Articles', () => {
     await step('Article should not be in favorites', async () => {
       await expect(page.getByText(article.title)).toHaveCount(0)
     })
-    }
-  )
+  })
 })

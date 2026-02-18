@@ -38,6 +38,7 @@ module.exports = defineConfig({
       testMatch: /ui\/.*\.spec\.(js|ts)$/,
       use: {
         ...devices['Desktop Chrome'],
+        baseURL: 'https://realworld.qa.guru/',
         launchOptions: {
           slowMo: 100,
         },
@@ -46,6 +47,9 @@ module.exports = defineConfig({
     {
       name: 'api',
       testMatch: /api\/.*\.spec\.(js|ts)$/,
+      use: {
+        baseURL: 'https://airportgap.com/api',
+      },
     },
 
     // {

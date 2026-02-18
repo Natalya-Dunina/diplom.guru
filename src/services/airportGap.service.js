@@ -1,8 +1,6 @@
 import axios from 'axios'
 import * as allure from 'allure-js-commons'
 
-const BASE_URL = 'https://airportgap.com/api'
-
 /**
  * Сервис для работы с Airport Gap API
  * Документация API: https://airportgap.com/docs
@@ -10,7 +8,7 @@ const BASE_URL = 'https://airportgap.com/api'
 export class AirportGapService {
   constructor(options) {
     this.options = options
-    this.baseURL = BASE_URL
+    this.baseURL = options?.baseURL
     this.token = null
   }
 

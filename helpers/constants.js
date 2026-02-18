@@ -1,6 +1,3 @@
-// UI Constants
-export const uiBaseUrl = 'https://realworld.qa.guru/'
-
 // API Constants - Airport Gap
 // IATA коды аэропортов для тестирования
 export const AIRPORTS = {
